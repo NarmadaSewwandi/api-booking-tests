@@ -1,0 +1,16 @@
+{
+  "name": "api-booking-tests",
+  "version": "1.0.0",
+  "description": "REST API test automation for a hotel booking service using Playwright and TypeScript",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "keywords": ["api-testing", "playwright", "rest", "qa", "typescript"],
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}
